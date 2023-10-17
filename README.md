@@ -1,3 +1,5 @@
+<h1>AutoGrader Modifications</h1>
+
 <p align="center">
   <a href="https://ovsyanka83.github.io/autograder/"><img src="https://raw.githubusercontent.com/Ovsyanka83/autograder/main/docs/_media/logo_with_text.svg" alt="AutoGrader"></a>
 </p>
