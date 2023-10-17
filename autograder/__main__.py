@@ -43,6 +43,8 @@ def _create_parser():
     _create_stats_parser(subparsers)
     _create_guide_parser(subparsers)
     _create_plagiarism_parser(subparsers)
+
+    print("Hi mom, this is a test")
     return parser
 
 
