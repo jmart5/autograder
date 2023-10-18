@@ -44,7 +44,6 @@ def _create_parser():
     _create_guide_parser(subparsers)
     _create_plagiarism_parser(subparsers)
 
-    print("Hi mom, this is a test")
     return parser
 
 
@@ -124,6 +123,7 @@ def _evaluate_args(args: argparse.Namespace, current_dir: Path):
         if args.verbose:
             L.setLevel(logging.DEBUG)
         submissions = [s.name for s in args.submissions] if args.submissions else args.submissions
+        print('to-do: add csv output')
         return Grader(current_dir, args.json, submissions).run()
     elif args.command == "plagiarism":
         import json
